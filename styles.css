@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: black;
+    
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    color:white;
+}
+#headTitle {
+    margin-top:9px;
+}
+.fa-solid {
+    color:gold;
+}
+nav {
+    color:whitesmoke;
+}
+a:link:hover {
+    color:gold;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  main {
+    font-family: Georgia, serif;
+  }
+i {
+    color:gold;
+}
