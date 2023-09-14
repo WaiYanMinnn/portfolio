@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    <!-- <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <title>Wai Yan Min</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,17 +13,17 @@
         <header>
             <div class="container">
                 <div class="row row-content">
-                    <div class="col-2 col-sm-3 mt-3 mb-4" style="color:white">
+                    <div class="col-12 col-sm-3 mt-3 mb-4" style="color:white">
                         <!--logo-->    
                         <h2><i class="fa-solid fa-code"> </i> Web Developer</h2>
                     </div>
                     <div class="col-sm-5">
 
                     </div>
-                    <div class="col-6 col-sm-4 order-sm-last">
+                    <div class="col-12 col-sm-4 order-sm-last">
                         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
                             <div class="container">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="DevNav">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#DevNav">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="DevNav">
@@ -44,99 +42,98 @@
             </div>
         </header>
         <!-- main section -->
-        <main class="container">
-            <div class="row row-content mt-5">
-                <div class="col-4 col-sm-4 mt-5">
-                    <p>----------------</p>
-                    <h1>I am Wai, a<br> Web Developer</h1>
-                    <p>Turning ideas into real life products is my calling.</p>
+        <main>
+            <!--section about me-->
+            <section class="container">
+                <div class="row row-content mt-5 img-fluid">
+                    <div class="col-12 col-sm-4 mt-5" id="intro">
+                        <p>----------------</p>
+                        <h1>I am Wai, a<br> Web Developer</h1>
+                        <p>Turning ideas into real life products is my calling.</p>
+    
+                    </div>
+                    <div class="col-12 col-sm-4" id="myphoto">
+                        <img src="IMG_2210.jpg" alt="my photo" width="300" height="300"/>
+    
+                    </div>
+                    <div class="col-12 col-sm-4 order-sm-last mt-5">
+                        <div class="row row-content" id="aboutme">
+                            <div class="col-12 col-sm-12" >
+                                <p>----------------</p>
+    
+                                <h4>ABOUT ME</h4>
+                            </div>
+                            <div class="col-12 col-sm-12 mb-4">
+                                <p>I am a beginner Web Developer. I am not sure my works are perfect. But i do my best on every works. People love what i do.</p>
+                            </div>
+    
+                        </div>                    
+    
+    
+                    </div>
+                </div>
+    
+            </section>
+            <!--section about my work-->
+            <section class="container" id="mywork">
+                <div class="row row-content mt-4">
+                    <h1>My Recent Work</h1>
+                    <p>Here are a few past design projects i've worked on. Want to see more? <a href="mailto:waiyanmin.lane@gmail.com" style="color:white">Email me</a> </p>
 
                 </div>
-                <div class="col-4 col-sm-4">
-                </div>
-                <div class="col-4 col-sm-4 order-sm-last mt-5">
+                <div class="container">
                     <div class="row row-content">
-                        <div class="col-12 col-sm-12">
-                            <h4>ABOUT ME</h4>
+                        <div class="col-12 col-sm-6 con">
+                            <img src="images/Screenshot 2023-09-13 at 4.02.34 PM (2).jpg" class="image img-fluid mt-4 mb-4"/>
+                            <div class="middle">
+                                <div class="text"> <a href="https://abetterwaytocampp.web.app" target="_blank">NuCamp site</a></div>
+                                <p>In this web page,I used a lot of bootstrap grips, classes. Carousel, nav bars, logos, links and so on..</p>
+                              </div>
                         </div>
-                        <div class="col-12 col-sm-12">
-                            <p>I am a beginner Web Developer. I am not sure my works are perfect. But i do my best on every works. People love what i do.</p>
-                            <a href="#">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+    
+                        <div class="col-12 col-sm-6 con">
+                            <img src="images/Screenshot 2023-09-13 at 4.06.55 PM (2).jpg" class="image img-fluid mt-4 mb-4"/>
+                            <div class="middle">
+                                <div class="text"><a href="https://waiyanmin-coffeeshop.web.app" target="_blank">Coffee shop</a></div>
+                                <p>In this page, I used links to navigate related topics, modals, footer links, simple and clear design and so on...</p>
+
+                              </div>
+
                         </div>
+                        <div class="col-12 col-sm-6 con">
+                            <img src="images/Screenshot 2023-09-13 at 4.09.47 PM (2).jpg" class="image img-fluid mt-4 mb-4"/>
+                            <div class="middle">
+                                <div class="text"><a href="#" target="_blank">Portfolio</a></div>
+                                <p>In this page, i used some new hover elements, grips to handling alignments, photos and other new things.</p>
+                              </div>
 
-                    </div>                    
+                        </div>
+                        <div class="col-12 col-sm-6 con">
+                            <img src="images/Screenshot 2023-09-13 at 4.11.45 PM (2).jpg" class="image img-fluid mt-4 mb-4"/>
+                            <div class="middle">
+                                <div class="text"><a href="https://csscornercafe.web.app" target="_blank">CSS Conrner Cafe</a></div>
+                                <p>In this page, I used basic pure simple tables and forms to make it look nice and clear.</p>
+                              </div>
 
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="Carousel">
 
                 </div>
-            </div>
-            <div class="row row-content">
-                <div class="col-4 col-sm-4">
 
-                </div>
-                <div class="col-4 col-sm-4">
+            </section>
 
-                </div>
-                <div class="col order-sm-last">
-                    <h4>MY WORK</h4>
-                    <ul style="list-style-type: none;">
-                        <li>HTMl</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>C++</li>
-
-                    </ul>
-                </div>
-
-            </div>
 
         </main>
         <footer>
-            <div class="container">
-                <div class="row row-content">
-                    <div class="col-4 col-sm-4">
-
-                    </div>
-                    <div class="col-4 col-sm-4">
-                        
-                    </div>
-                    <div class="col-4 col-sm-4">
-                        <h3>FOLLOW ME</h3>
-                        <a href="#"><i class="fa-brands fa-facebook">&nbsp</i></a>
-                        <a href="#"><i class="fa-brands fa-square-instagram">&nbsp</i></a>
-                        <a href="#"><i class="fa-brands fa-discord">&nbsp</i></a>
-                        <a href="#"><i class="fa-brands fa-youtube">&nbsp</i></a>
-                        <a href="#"></a>
-
-                    </div>
-
-                </div>
-            </div>
         </footer>
 
         
-        
-            <!-- <section>
-
-            </section>
-            <section>
-                <h1>Designer & Web developer</h1>
-                <em>I design and code beautifully, people love what i do. </em><br><br>
-                <div>
-                    <img src="images/A4196-10-Things-you-should-remember-before-designing-a-coffee-shop.jpg" alt="My Photo" width="100"/>
-
-                </div>
-            </section>
-            <section>
-                <h2>Programming Languages</h2>
-                <em>Cascading Style Sheets<br>
-                Hyper Text Markup Language<br>
-                Learning More</em>
-            </section>
-            <section>
-                <h2>Contact Me</h2>
-                <em>waiyanmin.lane@gmail.com</em>
-            </section> -->
 
             <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
-</body>
+    </body>
 </html>
