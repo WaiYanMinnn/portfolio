@@ -107,3 +107,46 @@ body {
     font-size: 30px;
     padding: 16px 32px;
   }
+  .carousel-item p {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    background-color: gold;
+
+  }
+  .carousel {
+    border: solid gold;
+}
+#collaboration {
+    text-align: center;
+    font-weight:bold;
+}
+#sendmessage {
+    width: 400px;
+    /* border: 0.5rem outset pink; */
+    border: 8px outset black;
+    border-radius:20px;
+    
+}
+.modal-header {
+    background-color:gray;
+}
+.modal-body {
+    background-color:rgb(51, 106, 224);
+}
+.modal-body a {
+    background-color:grey;
+    color:white;
+    border: black 5px outset;
+
+}
+.modal-body a:hover {
+    background-color:white;
+    color:black;
+}
+footer {
+    background-color: rgb(129, 123, 123);
+}
+footer a {
+    color:white;
+}
